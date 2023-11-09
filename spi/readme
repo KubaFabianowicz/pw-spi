@@ -2,6 +2,11 @@
 git config --local user.name "FIRST_NAME LAST_NAME" 
 git config --local user.email "MY_NAME#example.com"
 
+git config --global user.name"imie i huj"
+git config --global user.email "mail"
+git config --global core.editor macs
+
+#
 #nowe repo 
 git init 
 

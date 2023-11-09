@@ -2,10 +2,19 @@
 git config --local user.name "FIRST_NAME LAST_NAME" 
 git config --local user.email "MY_NAME#example.com"
 
+git config --global user.name"imie i huj"
+git config --global user.email "mail"
+
+#ustawienie edytora
+git config --global core.editor macs
+
+#lista konfiguracji
+git config --list --show-origin
+
 #nowe repo 
 git init 
 
-# klonowanie repo 
+# klonowanie repo - kadzy projekt od tego zaczynamy
 git clone 
 
 git clone https://github.com/KubaFabianowicz/pw-spi.git.
@@ -22,8 +31,10 @@ git clone https://github.com/KubaFabianowicz/pw-spi.git /nowy-katalog
 # dodanie plliku/plików do staging 
 
 git add nazwa-pliku 
-
+git add -h
 git add . 
+git add *.py
+git add Readme.md index.html 
 
 # komitowanie zmian 
 git commit -m "ZMIANY"
