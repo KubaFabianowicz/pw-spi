@@ -88,18 +88,26 @@
 # print(validate_ip('192.168.256.256'))
 # print(validate_ip('192.168.1'))
 
-# #nip_walidacja
+ #nip_walidacja
 # nip = '2131233123'
+# suma = 0
 # weights = [6,5,6,7,8,9,5,4,5,6]
-# #sprawdzamy czy mamy 10 
-# #spradzamy czy wszyskite sa cyframi 
+#  #sprawdzamy czy mamy 10 
+#  #spradzamy czy wszyskite sa cyframi 
 # if len(nip) != 10:
-#      False
+#       False
 
 # if nip.isdigit():
-#      False
+#       False
 
 # for i in range(9):
-#      suma += int(nip[i] * weights[i])
+#       suma += int(nip[i] * weights[i])
+#       print(i)
+# if suma%11 == 10 and suma%11 != nip[9]:
+#     False
 
-# if suma%11 != nip
+#     return True
+
+# validate_nip(nip)
+
+
