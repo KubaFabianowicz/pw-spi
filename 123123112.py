@@ -103,5 +103,3 @@
 #      suma += int(nip[i] * weights[i])
 
 # if suma%11 != nip
-
-
