@@ -36,6 +36,10 @@ git add .
 git add *.py
 git add Readme.md index.html 
 
+#git diff 
+git diff --staged
+git diff
+
 # komitowanie zmian 
 git commit -m "ZMIANY"
 
