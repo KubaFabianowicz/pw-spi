@@ -64,4 +64,7 @@ git branch
 # usuwanie brancha 
 git branch -d nazwa-branchu 
 
-eqwdqqwdq
+# add, mod, delete, remote url 
+git remote -v
+git remote remove test2
+git remote rename test test2
