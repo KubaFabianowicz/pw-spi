@@ -1,7 +1,7 @@
-# from math import sqrt 
+from math import sqrt 
 # print(sqrt(10))
 
-# import random 
+ import random 
 # #generowanie losowej liczby calkowiteje z akresu 1-100
 # print(random.randint(1,100))
 
@@ -15,16 +15,16 @@
 # print(numbers)
 
 # #zwrocenie biezacego czasu w sekundach 
-# import time 
+ import time 
 # print(time.time())
 
 # #zwrocenie biezacej daty i godizny
-# import datetime
+ import datetime
 # now = datetime.datetime.now()
 # print(now)
 
 # #napisz kod ktory wypisze liste wszystkich plikow w obencym katalogu 
-# import os 
+ import os 
 # for file in os.listdir():
 #     print(file)
 # #os.mknod("nowy_plik.txt")
@@ -46,10 +46,11 @@
 
 #napisz program ktory sprawdza czy format daty jest prawdilowy
 
-'dd-mm-yy'
 todays_date = datetime.date.today()
 print(todays_date)
 
 date = "2023-10-12"
 print(datetime.date.fromtimestamp(10000000).year)
 a = datetime.time(11,34,56)
+a = datetime.time(2022, 12, 28, 23, 55, 59, 34290)
+s1 = now.strftime("%m/%d/&Y", %H:%M:%S")
