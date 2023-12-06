@@ -248,12 +248,17 @@ soft vs hard
 
 
 git stash 
+git stash clear
+git stash list 
+git stash drop 
 
+git fetch --prune
+git fetch --tags
 
-
-
-
-
+git pull origin dev --no-commit
+ 
+git log --since"3day ego" 
+,=
 
 
 
